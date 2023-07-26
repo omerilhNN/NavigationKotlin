@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id("androidx.navigation.safeargs.kotlin")
+    id("androidx.navigation.safeargs")
 }
 
 android {
@@ -32,9 +32,9 @@ android {
         jvmTarget = '1.8'
     }
 }
-def nav_version = "2.6.0"
 
 dependencies {
+    def nav_version = "2.6.0"
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
