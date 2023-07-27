@@ -11,18 +11,18 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment 2"
+        android:text="Fragment 2 "
         android:textSize="20sp"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
         ></TextView>
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="105dp"
         android:layout_height="wrap_content"
-        android:text="back"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        ></Button>
+        android:text="back"></Button>
 
 </LinearLayout>
